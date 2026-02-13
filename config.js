@@ -51,7 +51,7 @@ const CONFIG = {
     celebration: {
         title: "I knew you'd say yes, you're such a dummy🤧",
         message: "Here's your gift, a day in Disney land with me in matching clothes",
-        emojis: "🥰🎁🥰🤭🥰"  // These will bounce around
+        emojis: "hehe🥰"  // These will bounce around
     },
 
     // Color scheme for the website
