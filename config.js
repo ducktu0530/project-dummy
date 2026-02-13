@@ -14,7 +14,7 @@ const CONFIG = {
     // Floating emojis that appear in the background
     // Find more emojis at: https://emojipedia.org
     floatingEmojis: {
-        hearts: ['❤️', '💖', '💝', '💗', '💓'],  // Heart emojis
+        hearts: ['❤️', '💖', '💝'],  // Heart emojis
         bears: ['🧸', '🐻']                       // Cute bear emojis
     },
 
@@ -25,7 +25,7 @@ const CONFIG = {
             text: "Do you like me?",                                    // First interaction
             yesBtn: "Yes",                                             // Text for "Yes" button
             noBtn: "No",                                               // Text for "No" button
-            secretAnswer: "I don't like you, I love you!"           // Secret hover message
+            secretAnswer: "I don't like you, I LOVE YOU!😋"           // Secret hover message
         },
         second: {
             text: "How much do you love me?",                          // For the love meter
@@ -34,7 +34,7 @@ const CONFIG = {
         },
         third: {
             text: "Will you be my Valentine on February 14th, 2026? 🌹", // The big question!
-            yesBtn: "Yes!",                                             // Text for "Yes" button
+            yesBtn: "YES!",                                             // Text for "Yes" button
             noBtn: "No"                                                 // Text for "No" button
         }
     },
@@ -42,15 +42,15 @@ const CONFIG = {
     // Love meter messages
     // They show up depending on how far they slide the meter
     loveMessages: {
-        extreme: "That's more like it, stupid 🥰🥰",  // Shows when they go past 5000%
-        high: "Uh huhhhhhh 🤨🤨 ",              // Shows when they go past 1000%
+        extreme: "Woahhh girl you love me that much? 😳😳😳",  // Shows when they go past 5000%
+        high: "That's more like it, stupid 🥰🥰",              // Shows when they go past 1000%
         normal: "Not true 😡😡😡"                           // Shows when they go past 100%
     },
 
     // Messages that appear after they say "Yes!"
     celebration: {
         title: "I knew you'd say yes, you're such a dummy🤧",
-        message: "Now come get your gift, a day in Disney land with me, in matching clothes, no refunds",
+        message: "Here's your gift, a day in Disney land with me, in matching clothes, no refunds",
         emojis: "🎁🤭🤗"  // These will bounce around
     },
 
@@ -71,17 +71,6 @@ const CONFIG = {
         floatDistance: "50px",          // How far hearts move sideways (30-70px recommended)
         bounceSpeed: "0.5s",            // Speed of bouncing animations (0.3-0.7s recommended)
         heartExplosionSize: 1.5         // Size of heart explosion effect (1.2-2.0 recommended)
-    },
-
-    // Background Music (Optional)
-    // Add your own music URL after getting proper licenses
-    music: {
-        enabled: true,                     // Music feature is enabled
-        autoplay: true,                    // Try to autoplay (note: some browsers may block this)
-        musicUrl: "https://res.cloudinary.com/dncywqfpb/video/upload/v1738399057/music_qrhjvy.mp3", // Music streaming URL
-        startText: "🎵 Play Music",        // Button text to start music
-        stopText: "🔇 Stop Music",         // Button text to stop music
-        volume: 0.5                        // Volume level (0.0 to 1.0)
     }
 };
 
