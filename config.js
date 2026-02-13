@@ -24,7 +24,7 @@ const CONFIG = {
         first: {
             text: "Do you like me?",                                    // First interaction
             yesBtn: "Yes",                                             // Text for "Yes" button
-            noBtn: "No",                                               // Text for "No" button
+            noBtn: "whatev",                                               // Text for "No" button
             secretAnswer: "I don't like you, I LOVE YOU!😋"           // Secret hover message
         },
         second: {
@@ -35,7 +35,7 @@ const CONFIG = {
         third: {
             text: "Will you be my Valentine on February 14th, 2026? 🌹", // The big question!
             yesBtn: "YES!",                                             // Text for "Yes" button
-            noBtn: "No"                                                 // Text for "No" button
+            noBtn: "nuh uh"                                                 // Text for "No" button
         }
     },
 
@@ -51,7 +51,7 @@ const CONFIG = {
     celebration: {
         title: "I knew you'd say yes, you're such a dummy🤧",
         message: "Here's your gift, a day in Disney land with me in matching clothes",
-        emojis: "🎁🤭🥰"  // These will bounce around
+        emojis: "🥰🎁🥰🤭🥰"  // These will bounce around
     },
 
     // Color scheme for the website
