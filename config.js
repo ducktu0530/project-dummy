@@ -9,7 +9,7 @@ const CONFIG = {
 
     // The title that appears in the browser tab
     // You can use emojis! 💝 💖 💗 💓 💞 💕
-    pageTitle: "You're such a dummy",
+    pageTitle: "You're such a dummy😉",
 
     // Floating emojis that appear in the background
     // Find more emojis at: https://emojipedia.org
@@ -50,8 +50,8 @@ const CONFIG = {
     // Messages that appear after they say "Yes!"
     celebration: {
         title: "I knew you'd say yes, you're such a dummy🤧",
-        message: "Here's your gift, a day in Disney land with me, in matching clothes, no refunds",
-        emojis: "🎁🤭🤗"  // These will bounce around
+        message: "Here's your gift, a day in Disney land with me in matching clothes",
+        emojis: "🎁🤭🥰"  // These will bounce around
     },
 
     // Color scheme for the website
